@@ -122,7 +122,7 @@ if __name__ == '__main__':
         '--inbrowser', action='store_true', help='Open in browser'
     )
     parser.add_argument(
-        '--share', action='store_true', help='Share the gradio UI'
+        '--share', action='store_false', help='Share the gradio UI'
     )
     parser.add_argument(
         '--headless', action='store_true', help='Is the server headless'
